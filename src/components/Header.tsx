@@ -23,7 +23,7 @@ export const Header = () => {
       <div className="w-[90px] h-[90px] bg-black">
         <img src="/logo.png" alt="logo" className="p-7" />
       </div>
-      <div className="flex gap-14">
+      <div className=" hidden md:flex gap-14">
         {menu.map((item) => (
           <div className="cursor-pointer hover:underline font-medium">
             <h2>{item.name}</h2>

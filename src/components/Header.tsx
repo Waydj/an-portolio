@@ -19,7 +19,7 @@ const menu = [
 
 export const Header = () => {
   return (
-    <div className="flex justify-between items-center w-screen border-b">
+    <div className="flex fixed justify-between items-center w-screen border-b bg-black">
       <div className="w-[90px] h-[90px] bg-black">
         <img src="/logo.png" alt="logo" className="p-7" />
       </div>
